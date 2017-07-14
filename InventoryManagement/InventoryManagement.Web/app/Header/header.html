@@ -1,0 +1,46 @@
+﻿<div id="top">    
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+            <h1><a href="index.html">Inventory Management System</a></h1>
+            <p>THE BUSSINESS SOLUTION</p>            
+        </header>
+    </div>
+
+    <!-- ################################################################################################ -->
+    <div class="wrapper row4" ng-show="LoginStatus">
+        <nav id="mainav" class="hoc clear">
+            <ul class="clear">
+                <li class="active"><a href="#!/home">Home</a></li>
+                <li>
+                    <a class="drop" href="">OPERATIONS</a>
+                    <ul>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">IN</a></li>
+                        <li><a href="">OUT</a></li>
+                        <li><a href="">MOVE</a></li>
+                        <li><a href="">INFORMATION</a></li>
+                        <li><a href="">INVENTORY</a></li>
+                        <li><a href="">TRANSATIONS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li>
+                    <a class="drop" href="">{{userData.UserFirstName}} {{userData.userLastName}}</a>
+                    <ul>
+                        <li><a href="">Edit profile</a></li>
+                        <li>
+                            <a class="drop" href="">Colors</a>
+                            <ul>
+                                <li><a href="">Orange</a></li>
+                                <li><a href="">Blue</a></li>
+                                <li><a href="">Red</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!/login">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>    
+    </div>
+</div>    

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Content/sidebar.css" rel="stylesheet" >
+    <link href="/Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/styles/framework.css" rel="stylesheet" type="text/css" media="all" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <div ng-include="'Header/header.html'"></div>
+
+    <div ng-include="'Sidebar/sidebar.html'"></div>
+    <div ng-view=""></div>
+    <div ng-include="'Footer/footer.html'"></div>
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/jquery.mobilemenu.js"></script>
+    <script src="/Scripts/jquery.backtotop.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="userService.js"></script>
+    <script src="Login/loginController.js"></script>
+    <script src="Home/homeController.js"></script>
+    <script src="Sidebar/sidebarController.js"></script>
+
+</body>
+</html>

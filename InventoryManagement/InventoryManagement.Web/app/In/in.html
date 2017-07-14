@@ -1,0 +1,23 @@
+﻿<div class="modal modal-scrollbar-measure">
+    <div class="modal-header">
+        IN
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <select ng-model="">
+                <option ng-value="" ng-repeat="item in itemList">{{item.Name}}</option>
+            </select>
+            <hr />
+            <div class="input-group">
+                <span class="input-group-addon" ng-click="">
+                    <i class="glyphicon glyphicon-arrow-up"></i>
+                </span>
+                <input type="text" placeholder="Enter the quantity of item" ng-model="" ng-bind="" class="form-control"/>
+                <span class="input-group-addon" ng-click="">
+                    <i class="glyphicon glyphicon-arrow-down"></i>
+                </span>
+            </div>
+            <hr />
+        </form>
+    </div>
+</div>
